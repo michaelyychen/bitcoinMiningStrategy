@@ -23,19 +23,17 @@ public class MajorityMiner extends BaseMiner implements Miner {
     @Override
     public void blockMined(Block block, boolean isMinerMe) {
         if(isMinerMe) {
-            if (block.getHeight() > currentHead.getHeight()) {
+
+            if (block.getHeight() > currentHead.getHeight())
                 this.currentHead = block;
-             //   System.out.println("Attacker's currently at height: " + currentHead.getHeight());
-            }
         }
         else{
-      //  System.out.println( "Mined:  " + block.getMinedBy()+ " Height: " + block.getHeight() + " Value: "+block.getBlockValue());
-            if (currentHead == null) {
+
+            if (currentHead == null)
                 currentHead = block;
-            }else if (block != null && block.getHeight() > currentHead.getHeight() && !majority) {
+            else if (block != null && block.getHeight() > currentHead.getHeight() && !majority)
                 this.currentHead = block;
 
-            }
         }
     }
 
@@ -46,6 +44,7 @@ public class MajorityMiner extends BaseMiner implements Miner {
 
     @Override
     public void networkUpdate(NetworkStatistics statistics) {
+
         double attackerProportion = (double)this.getHashRate()/statistics.getTotalHashRate();
 
         if(attackerProportion >= 0.50)

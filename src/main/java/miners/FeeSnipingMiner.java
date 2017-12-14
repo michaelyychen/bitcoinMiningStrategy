@@ -47,14 +47,8 @@ public class FeeSnipingMiner extends BaseMiner implements Miner {
                 this.currentHead = block;
                 this.currentlyMining = block;
 
-            } else if (block != null && block.getHeight() > currentlyMining.getHeight() && block.getBlockValue() > targetBlockValue) {
-
-
-//                this.currentHead = block;
-//                if(block.getHeight() - this.currentlyMining.getHeight() > 3)
-//                    this.currentlyMining = block;
-//                this.currentlyMining = block;
-//                this.feeSniping = block;
+            } else if (block != null && block.getHeight() > currentlyMining.getHeight()
+                    && block.getBlockValue() > targetBlockValue) {
 
                 if (this.feeSniping == null || block.getHeight() - feeSniping.getHeight() > 1)  {
                     this.feeSniping = block;
@@ -67,10 +61,8 @@ public class FeeSnipingMiner extends BaseMiner implements Miner {
                 this.currentlyMining = block;
 
             }
-
         }
     }
-
 
     @Override
     public void initialize(Block genesis, NetworkStatistics networkStatistics) {

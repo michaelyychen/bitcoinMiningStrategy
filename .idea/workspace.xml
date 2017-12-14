@@ -1,31 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85e9b608-2634-4fb7-88b7-6ea92d205e3a" name="Default" comment="Init">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/miners/FeeSnipingMiner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/miners/MajorityMiner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/miners/SelfishMiner.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/edu/nyu/crypto/csci3033/blockchain/BitcoinNetwork.java" afterPath="$PROJECT_DIR$/src/main/java/blockchain/BitcoinNetwork.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/edu/nyu/crypto/csci3033/blockchain/Block.java" afterPath="$PROJECT_DIR$/src/main/java/blockchain/Block.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/edu/nyu/crypto/csci3033/blockchain/BlockReward.java" afterPath="$PROJECT_DIR$/src/main/java/blockchain/BlockReward.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/edu/nyu/crypto/csci3033/blockchain/ChurnFunction.java" afterPath="$PROJECT_DIR$/src/main/java/blockchain/ChurnFunction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/edu/nyu/crypto/csci3033/blockchain/LognormalReward.java" afterPath="$PROJECT_DIR$/src/main/java/blockchain/LognormalReward.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/edu/nyu/crypto/csci3033/blockchain/NetworkStatistics.java" afterPath="$PROJECT_DIR$/src/main/java/blockchain/NetworkStatistics.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/edu/nyu/crypto/csci3033/blockchain/NormalChurnFunction.java" afterPath="$PROJECT_DIR$/src/main/java/blockchain/NormalChurnFunction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/edu/nyu/crypto/csci3033/blockchain/SimulationRandom.java" afterPath="$PROJECT_DIR$/src/main/java/blockchain/SimulationRandom.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/edu/nyu/crypto/csci3033/blockchain/SimulationUtils.java" afterPath="$PROJECT_DIR$/src/main/java/blockchain/SimulationUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/edu/nyu/crypto/csci3033/miners/BaseMiner.java" afterPath="$PROJECT_DIR$/src/main/java/miners/BaseMiner.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/edu/nyu/crypto/csci3033/miners/CompliantMiner.java" afterPath="$PROJECT_DIR$/src/main/java/miners/CompliantMiner.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/edu/nyu/crypto/csci3033/miners/Miner.java" afterPath="$PROJECT_DIR$/src/main/java/miners/Miner.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/edu/nyu/crypto/csci3033/miners/MiningSimulation.java" afterPath="$PROJECT_DIR$/src/test/java/miners/MiningSimulation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/edu/nyu/crypto/csci3033/miners/PlayGround.java" afterPath="$PROJECT_DIR$/src/test/java/miners/PlayGround.java" />
+    <list default="true" id="85e9b608-2634-4fb7-88b7-6ea92d205e3a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MiningProject.iml" afterPath="$PROJECT_DIR$/MiningProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/miners/FeeSnipingMiner.java" afterPath="$PROJECT_DIR$/src/main/java/miners/FeeSnipingMiner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/miners/MajorityMiner.java" afterPath="$PROJECT_DIR$/src/main/java/miners/MajorityMiner.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MiningSimulation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MiningSimulation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/miners/MiningSimulation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
-              <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
+              <caret line="57" column="3" lean-forward="false" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -62,9 +41,11 @@
       <file leaf-file-name="FeeSnipingMiner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/miners/FeeSnipingMiner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="167">
+              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,19 +63,24 @@
       <file leaf-file-name="MajorityMiner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/miners/MajorityMiner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="422">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding>
+                <element signature="e#1014#1015#0" expanded="true" />
+                <element signature="e#1056#1057#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelfishMiner.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SelfishMiner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/miners/SelfishMiner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="690">
+              <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,11 +98,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/miners/FeeSnipingMiner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/miners/MajorityMiner.java" />
         <option value="$PROJECT_DIR$/src/main/java/miners/SelfishMiner.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/miners/MiningSimulation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/miners/FeeSnipingMiner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/miners/MajorityMiner.java" />
       </list>
     </option>
   </component>
@@ -374,12 +360,20 @@
       <option name="presentableId" value="Default" />
       <updated>1513290530430</updated>
       <workItem from="1513290533847" duration="139000" />
-      <workItem from="1513290736048" duration="703000" />
+      <workItem from="1513290736048" duration="1747000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated dependencies">
+      <created>1513291484467</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1513291484467</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="842000" />
+    <option name="totallyTimeSpent" value="1886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="227" y="23" width="1020" height="732" extended-state="0" />
@@ -421,21 +415,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Updated dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated dependencies" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/miners/FeeSnipingMiner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/miners/CompliantMiner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -444,26 +431,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miners/MajorityMiner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/miners/SelfishMiner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
+          <caret line="57" column="3" lean-forward="false" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -471,7 +442,38 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/miners/MiningSimulation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/miners/FeeSnipingMiner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/miners/MajorityMiner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/miners/SelfishMiner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
