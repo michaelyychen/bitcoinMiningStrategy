@@ -1,8 +1,9 @@
-package edu.nyu.crypto.csci3033.miners;
+package miners;
 
 import com.google.common.collect.ImmutableList;
-import edu.nyu.crypto.csci3033.blockchain.*;
-import org.junit.Test;
+import blockchain.*;
+import org.fest.assertions.Assertions;
+import org.junit.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -46,7 +47,7 @@ public class MiningSimulation {
 
 
     //TODO: Uncomment this part when testing your miners.
-/*    @Test
+    @Test
     public void simulate51PercentAttack1() {
         Miner attacker = new MajorityMiner("Attacker", 520, 1);
         Miner miner2 = new CompliantMiner("Miner2", 200, 1);
@@ -145,7 +146,7 @@ public class MiningSimulation {
         Assertions.assertThat(attackerProfits).isGreaterThan(.31);
     }
 
-*/
+
     /**
      * Runs the simulation and returns a relative
      *

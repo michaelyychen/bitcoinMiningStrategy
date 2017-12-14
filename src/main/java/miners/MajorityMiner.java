@@ -1,14 +1,13 @@
-package edu.nyu.crypto.csci3033.miners;
+package miners;
 
-import edu.nyu.crypto.csci3033.blockchain.Block;
-import edu.nyu.crypto.csci3033.blockchain.NetworkStatistics;
+import blockchain.*;
 
-public class CompliantMiner extends BaseMiner implements Miner {
+public class MajorityMiner extends BaseMiner implements Miner {
+
     private Block currentHead;
-
-    public CompliantMiner(String id, int hashRate, int connectivity) {
+    private boolean majority = false;
+    public MajorityMiner(String id, int hashRate, int connectivity) {
         super(id, hashRate, connectivity);
-
     }
 
     @Override
@@ -26,18 +25,19 @@ public class CompliantMiner extends BaseMiner implements Miner {
         if(isMinerMe) {
             if (block.getHeight() > currentHead.getHeight()) {
                 this.currentHead = block;
+             //   System.out.println("Attacker's currently at height: " + currentHead.getHeight());
             }
         }
         else{
+      //  System.out.println( "Mined:  " + block.getMinedBy()+ " Height: " + block.getHeight() + " Value: "+block.getBlockValue());
             if (currentHead == null) {
                 currentHead = block;
-            } else if (block != null && block.getHeight() > currentHead.getHeight()) {
+            }else if (block != null && block.getHeight() > currentHead.getHeight() && !majority) {
                 this.currentHead = block;
 
             }
         }
     }
-
 
     @Override
     public void initialize(Block genesis, NetworkStatistics networkStatistics) {
@@ -46,6 +46,14 @@ public class CompliantMiner extends BaseMiner implements Miner {
 
     @Override
     public void networkUpdate(NetworkStatistics statistics) {
+        double attackerProportion = (double)this.getHashRate()/statistics.getTotalHashRate();
+
+        if(attackerProportion >= 0.50)
+            this.majority = true;
+        else
+            this.majority = false;
+
 
     }
+
 }
